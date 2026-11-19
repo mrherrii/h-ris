@@ -6,13 +6,12 @@
 # The official release build branding.nsi is located in other-license/branding/firefox/
 # The nightly build branding.nsi is located in browser/installer/windows/nsis/
 
-# BrandFullNameInternal is used for some registry and file system values
-# instead of BrandFullName and typically should not be modified.
-!define BrandFullNameInternal "Mozilla Developer Preview"
-!define BrandFullName         "Mozilla Developer Preview"
-!define CompanyName           "mozilla.org"
-!define URLInfoAbout          "https://www.mozilla.org"
-!define HelpLink              "https://support.mozilla.org"
+# Keep the internal product name aligned with the visible product name.
+!define BrandFullNameInternal "Héris"
+!define BrandFullName         "Héris"
+!define CompanyName           "Héris"
+!define URLInfoAbout          "https://github.com/mrherrii/h-ris"
+!define HelpLink              "https://github.com/mrherrii/h-ris/issues"
 
 !define URLStubDownloadX86 "https://download.mozilla.org/?os=win&lang=${AB_CD}&product=firefox-latest"
 !define URLStubDownloadAMD64 "https://download.mozilla.org/?os=win64&lang=${AB_CD}&product=firefox-latest"
